@@ -22,6 +22,24 @@
 							<h1><a href="index.html">witamy w naszym kościele</a></h1>
 							<p>nasza lokalizacja</p>
 							<p>sala widowiskowa w poczytalni, ul. Tadeusza Kościuszki 8A</p>
+							        <div className="mt-12 flex flex-col md:flex-row gap-6 justify-center max-w-4xl mx-auto">
+          {/* Location Section */}
+          <div className="flex items-center gap-3 text-white/90">
+            <MapPin size={24} className="text-white" />
+            <div>
+              <p className="font-medium">Sala widowiskowa w Poczytalni</p>
+              <p className="text-sm">piętro II, ul. Tadeusza Kościuszki 8A</p>
+            </div>
+          </div>
+          
+          {/* Service Time Section */}
+          <div className="flex items-center gap-3 text-white/90">
+            <Clock size={24} className="text-white" />
+            <div>
+              <p className="font-medium">Niedziela 11:00</p>
+            </div>
+          </div>
+        </div>
 						</div>
 
 					<!-- Nav -->
