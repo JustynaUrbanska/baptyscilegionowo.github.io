@@ -1,0 +1,20 @@
+
+// SCSS for Kościół Chrześcijan Baptystów w Legionowie logo (with external PNG references)
+
+.logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+
+  &.vertical {
+    background-image: url('/images/logo-vertical.png');
+    width: 200px;
+    height: 250px;
+  }
+
+  &.horizontal {
+    background-image: url('/images/logo-horizontal.png');
+    width: 300px;
+    height: 120px;
+  }
+}
